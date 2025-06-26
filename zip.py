@@ -6,7 +6,7 @@ import shutil
 base_path = "./"  # 或換成你實際的路徑
 
 for folder in os.listdir(base_path):
-    if folder.startswith("etag_2025"):
+    if folder.startswith("etag_202505"):
         folder_path = os.path.join(base_path, folder)
         print(f"📂 解壓中：{folder}")
         for file in os.listdir(folder_path):
