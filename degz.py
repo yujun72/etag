@@ -5,7 +5,7 @@ base_path = "./"
 
 # 逐一搜尋所有 etag_2025 開頭的資料夾
 for folder in os.listdir(base_path):
-    if folder.startswith("etag_202505"):
+    if folder.startswith("vd_202506"):
         folder_path = os.path.join(base_path, folder)
         for file in os.listdir(folder_path):
             if file.endswith(".xml.gz"):
